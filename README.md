@@ -1,22 +1,20 @@
-# EDF to ASC
+# From EDF to ASC filesEDF to ASC
 
-### From EDF to ASC files
 
-This repository contains a tutorial for extracting eye tracking data from an EDF file (raw data). 
+This repository contains a tutorial for extracting EYE TRACKING data from an EDF file (raw data). 
 
 
 ```markdown
 
 ### Files that you will need
 
-1. Framework file**: the "edfapi.framework" have to be your directory: /Library/Frameworks.
-**2. edf2asc**: This program turns your EDF file into an ASCII format file.
-**3. AWK code**: This code contain a few instructions for saving your data in two files: dat and msg. 
-**4. EDF file**: this is your eyectracking RAW data
+1. **Framework file**: the "edfapi.framework" have to be your directory: /Library/Frameworks.
+2. **edf2asc**: This program turns your EDF file into an ASCII format file.
+3. **AWK code**: This code contain a few instructions for saving your data in two files: dat and msg. 
+4. **EDF file**: this is your eyectracking RAW data
 
-``` markdown
-### 
-INSTRUCTIONS:
+
+### INSTRUCTIONS:
 
 1) Clone or download this repository.
 
@@ -37,9 +35,19 @@ cd Deskstop
 cd 02_basic_files
 
 05) Once that you are there run the file number 3: AWK code
-./preprocessing.sh
+./extraction.sh
 
-```markdown
+```
+
+After followinr these steps yu will have two more files:
+
+1) An DAT file
+2) An MSG file
+
+You can just copy your EDF raw files to this folder, and then run the "extraction.sh" file again. 
+
+If something is not working, drop me a message.
+
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
