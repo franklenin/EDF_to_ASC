@@ -8,10 +8,13 @@ This repository contains a tutorial for extracting EYE TRACKING data from an EDF
 
 ### Files that you will need
 
-1. **Framework file**: the "edfapi.framework" have to be your directory: /Library/Frameworks.
-2. **edf2asc**: This program turns your EDF file into an ASCII format file.
-3. **AWK code**: This code contain a few instructions for saving your data in two files: dat and msg. 
-4. **EDF file**: this is your eyectracking RAW data
+
+File | Description
+------------ | -------------
+1. **Framework** | the "edfapi.framework" have to be in your directory: /Library/Frameworks.
+2. **edf2asc** | This program turns your EDF file into an ASCII format file.
+3. **AWK file** | This code contain a few instructions for saving your data in two files: dat and msg. 
+4. **EDF file** | this is your eyectracking RAW data.
 
 
 ### INSTRUCTIONS:
@@ -21,8 +24,7 @@ This repository contains a tutorial for extracting EYE TRACKING data from an EDF
 2) The folder "01_Framework" containts the "edfapi.framework". 
 Copy this framework in your folder "Frameworks". The usual pathway on MAC is /Library/Framewroks.
 
-3) Copy the folder "02_basic_files" in your Desktop.
-Remember: this folder conraoins contains three files: 
+3) Copy the folder "02_basic_files" in your Desktop. Remember: this folder contains three files: 
  --edf2asc
  --AWK code
  --EDF file (this some example data)
@@ -39,7 +41,7 @@ cd 02_basic_files
 
 ```
 
-After followinr these steps yu will have two more files:
+After following these steps, yu will have two more files:
 
 1) An DAT file
 2) An MSG file
@@ -48,6 +50,7 @@ You can just copy your EDF raw files to this folder, and then run the "extractio
 
 If something is not working, drop me a message.
 
+------------------------------------------------------------------------------------------------------------
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
