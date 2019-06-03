@@ -27,22 +27,20 @@ Copy this framework in your folder "Frameworks". The usual pathway on MAC is /Li
  --AWK code
  --EDF file (this some example data)
 
-4) Open the Terminal (ctrl + Tab ) and go to your folder "02_basic_files". 
+4) Open the Terminal (ctrl + Tab ) and go to your folder "**02_basic_files**". 
+(Hint: use the Unix Shell commdas: "ls" and "cd")
 
-Example: you should do something similar:
 
-cd Deskstop
-cd 02_basic_files
-
-05) Once that you are there run the file number 3: AWK code
+05) Once that you are in your folder "02_basic_files", run the file "**extraction.sh**". Use the next line on the Terminal for running this file:
 ./extraction.sh
 
 ```
 
+### Outputs:
 After following these steps, yu will have two more files:
 
-1) An DAT file
-2) An MSG file
+1) DAT file
+2) MSG file
 
 You can just copy your EDF raw files to this folder, and then run the "extraction.sh" file again. 
 
