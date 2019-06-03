@@ -4,10 +4,7 @@
 This repository contains a tutorial for extracting EYE TRACKING data from an EDF file (raw data). 
 
 
-```markdown
-
 ### Files that you will need
-
 
 File | Description
 ------------ | -------------
@@ -16,6 +13,7 @@ File | Description
 3. **AWK file** | This code contain a few instructions for saving your data in two files: dat and msg. 
 4. **EDF file** | this is your eyectracking RAW data.
 
+```markdown
 
 ### INSTRUCTIONS:
 
