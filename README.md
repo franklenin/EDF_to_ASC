@@ -8,10 +8,10 @@ This repository contains a tutorial for extracting EYE TRACKING data from an EDF
 
 File | Description
 ------------ | -------------
-1. **Framework** | the "edfapi.framework" have to be in your directory: /Library/Frameworks.
-2. **edf2asc** | This program turns your EDF file into an ASCII format file.
-3. **AWK file** | This code contain a few instructions for saving your data in two files: dat and msg. 
-4. **EDF file** | this is your eyectracking RAW data.
+**Framework** | the "edfapi.framework" have to be in your directory: /Library/Frameworks.
+**edf2asc** | This program turns your EDF file into an ASCII format file.
+**AWK file** | This code contain a few instructions for saving your data in two files: dat and msg. 
+**EDF file** | this is your eyectracking RAW data.
 
 ```markdown
 
