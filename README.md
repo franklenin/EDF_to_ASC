@@ -1,17 +1,15 @@
 # EDF to ASC
 
-## From EDF to ASC files
+### From EDF to ASC files
 
 This repository contains a tutorial for extracting eye tracking data from an EDF file (raw data). 
 
 
 ```markdown
-Syntax highlighted code block
-
 
 ### Files that you will need
 
-**1. Framework file**: the "edfapi.framework" have to be your directory: /Library/Frameworks.
+1. Framework file**: the "edfapi.framework" have to be your directory: /Library/Frameworks.
 **2. edf2asc**: This program turns your EDF file into an ASCII format file.
 **3. AWK code**: This code contain a few instructions for saving your data in two files: dat and msg. 
 **4. EDF file**: this is your eyectracking RAW data
@@ -20,9 +18,9 @@ Syntax highlighted code block
 ### 
 INSTRUCTIONS:
 
-1) Clone or Download this repository.
+1) Clone or download this repository.
 
-2) Folder "01_Framework" containts the "edfapi.framework". 
+2) The folder "01_Framework" containts the "edfapi.framework". 
 Copy this framework in your folder "Frameworks". The usual pathway on MAC is /Library/Framewroks.
 
 3) Copy the folder "02_basic_files" in your Desktop.
